@@ -1,0 +1,122 @@
+body{
+    margin: auto 0;
+    width:100%;
+    font-family: 'Playfair Display', serif;
+}
+.item{
+   /* padding:30px 50px;
+    margin:40px 60px;*/
+    cursor:pointer;
+    /*display:inline-block;*/
+    color:aqua;
+    font-size: 2em;
+    border-radius: 4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+.green{
+    background-color: green;
+  /*  margin: 20px;*/
+}
+.red{
+    background-color: red;
+   /* margin: 20px; */
+}
+.purple{
+    background-color: #b980f0;
+   /* margin: 20px; */
+}
+.lavender{
+    background-color:#a898f9;
+  /*  #e5fbb8;
+    margin: 20px; */
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.sticky{
+    position: fixed;
+    margin: 0;
+    width:100%;
+} 
+@media only screen and (max-width:600px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+li{
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color:white;
+    background-image: url(flower.png);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+}
+.feature-img{
+    height:90%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.cover{
+    width: 25rem;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    color:black;
+    text-align: center;
+}
+.animate__animated.animate__bounce {
+    --animate-duration: 5s;
+  }
+  .btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+    
+  }
+  .btn-primary{
+    background-color:#b980f0;
+  } 
+  .btn-xl{
+    padding: 1rem 2rem;
+  } 
+  
+.review{
+    margin-left: auto;
+}
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+}
+.box>img{
+    width: 100%;
+}
+.box{
+    background-color: #fdf8fc;
+    padding: 20px;
+    margin: 20px;
+}
+.box:hover{
+    transform: rotate(3deg);
+}
+footer{
+    text-align: center;
+}
+.lavender{
+    color:black;
+}
