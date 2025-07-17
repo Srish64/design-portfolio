@@ -1,47 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="profile.css">
-<style>
-    @media( min-width:600px) and (max-width:1250px){
-        h1{font-size: 15px;}
-        h2{font-size: 12px;}
-        h3{font-size: 10px;}
-        .images img{
-            top: 60px;
-            height:50%;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Srishti M</title>
+  <link rel="stylesheet" href="profile.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #fefefe;
+      margin: 0;
     }
-    @media( min-width:300px) and (max-width:600px){
-        h1{font-size: 12px;}
-        h2{font-size: 9px;}
-        h3{font-size: 4px;}
-        .images img{
-            top:-90px;
-            height:15%;
-        }
+    h1 {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 10px;
     }
-</style>
+    h2 {
+      font-size: 20px;
+      text-align: center;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto 20px;
+      color: #333;
+      text-align: center;
+    }
+    .contact-info {
+      text-align: center;
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+    .contact-info a {
+      color: #0077b5;
+      text-decoration: none;
+    }
+    .profile-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .profile-image img {
+      width: 180px;
+      max-width: 90%;
+      border-radius: 50%;
+      border: 3px solid #ccc;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 22px; }
+      h2 { font-size: 16px; }
+      p, .contact-info { font-size: 14px; }
+    }
+  </style>
 </head>
 <body>
-    <h1>About Me</h1>
-    <hr/>
-    <br/>
-    <h2><u>Software Developer</u></h2>
-    <h3>Hello! I'm SRISHTI M.<br/> I am a Software Developer.<br/> I have a graduation in Computer Science Engineering<br/> from JSSATE affiliated to Viswesvarayya Technological University.<br/>
-    I am a Hardworking professional with proven efficiency and<br/> working knowledge of Computer Science Engineering,<br/> aiming to leverage my skills and creativity to successfully<br/>fill the Software Developer role in your company.<br/>
-My Date of Birth: 06/04/1995<br/>
-Qualification: Bachelor of Engineering in computer science.<br/>
-Email ID: srishtimanjunath.64@gmail.com<br/>
-Mobile Number: 9632347017<br/>
-Address: 1st Sector HSR Layout, Bangalore-560102.<br/>
-LinkedIn: https://www.linkedin.com/in/srishti-m-925a75215 
-</h3>
-    <div class="images">
-        <img src="sru.png" class="girl">
-    </div>
+
+  <h1>About Me</h1>
+  <h2>Software Developer | AI Enthusiast | Front-End Designer</h2>
+
+  <p>
+    Hello! I'm <strong>Srishti M</strong>, a Computer Science Engineering graduate from JSSATE (VTU).
+    <br><br>
+    With hands-on experience in <strong>AI, frontend development, and UX/UI design</strong>, I combine creativity with technical skills to build impactful digital solutions. I’m passionate about solving real-world problems through technology.
+    <br><br>
+    Currently seeking roles in <strong>AI, Web Development, and UI/UX Design</strong>, where I can grow while contributing meaningfully.
+  </p>
+
+  <div class="contact-info">
+    <p><strong>Date of Birth:</strong> April 6, 1995</p>
+    <p><strong>Email:</strong> <a href="mailto:srishtimanjunath.64@gmail.com">srishtimanjunath.64@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+919632347017">+91 96323 47017</a></p>
+    <p><strong>Location:</strong> HSR Layout, Bangalore – 560102</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/srishti-m-925a75215" target="_blank">linkedin.com/in/srishti-m</a></p>
+  </div>
+
+  <div class="profile-image">
+    <img src="sru.png" alt="Srishti's Photo">
+  </div>
+
 </body>
 </html>
